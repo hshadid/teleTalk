@@ -12,7 +12,7 @@
 		}
 		h1 {
 			text-align: center;
-			color: #58b2cb;
+			color: #2900f4;
 			margin-top: 50px;
 			margin-bottom: 30px;
 		}
@@ -76,3 +76,4 @@
 	
 </body>
 </html>
+
