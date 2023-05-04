@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>teleTalk Login</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #4c52be;
+		}
+		h1 {
+			text-align: center;
+			color: #FFFFFF;
+			margin-top: 50px;
+			margin-bottom: 30px;
+		}
+		form {
+			margin: auto;
+			max-width: 400px;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			background-color: #FFFFFF;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+			color: #555555;
+		}
+		input[type="text"], input[type="password"] {
+			display: block;
+			margin-bottom: 20px;
+			padding: 10px;
+			border: 1px solid #240c0c;
+			border-radius: 5px;
+			width: 100%;
+			box-sizing: border-box;
+			font-size: 16px;
+			color: #555555;
+		}
+		input[type="submit"] {
+			background-color: blue;
+			color: #090303a0;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		a {
+			display: block;
+			margin-top: 20px;
+			text-align: center;
+			color: #FFFFFF;
+			font-size: 14px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>teleTalk Login</h1>
+	<form>
+		<label>Email:</label>
+		<input type="text" name="email">
+		<label>Password:</label>
+			<input type="password" name="password">
+		<input type="submit" value="Login">
+	</form>
+	<a href="#">Create new account</a>
+	
+</body>
+</html>
